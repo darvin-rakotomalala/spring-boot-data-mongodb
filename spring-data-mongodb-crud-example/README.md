@@ -1,5 +1,5 @@
 ## Spring Data MongoDB - CRUD REST API exemple
-Dans ce projet, nous allons voir un exemple d'API REST pour une entité `Expense` avec Spring Data MongoDB. 
+Dans ce projet, nous allons voir un exemple d'API REST pour une entité `Expense` à l'aide de Spring Data MongoDB. 
 
 ### Prérequis
 ---
@@ -30,12 +30,10 @@ Dans ce tuto nous allons utiliser les dependances de base suivants :
 ### Exécuter et tester les API
 ---
 Pour tester les APIs vous pouvez utiliser Postman, Swagger, curl ou n'importe quel client HTTP :
-* L'API d'URL GET `/api/expenses` - renvoie une liste des dépenses
-* L'API d'URL GET `/api/expenses/{id}` - renvoie une dépense
 * L'API d'URL POST `/api/expenses` - Ajouter une dépense
-* L'API d'URL PUT `/api/expenses/{id}` - mettre à jour une dépense
-* L'API d'URL DELETE `/api/expenses/{id}` - supprimer une dépense
-* L'API d'URL GET `/api/expenses/searchByEmail?email=mot-clé` - rechercehe une dépense par email
-* L'API d'URL GET `/api/expenses/searchByExp?expFrom=valeur&expTo=valeur` - rechercehe des dépenses entre deux valeurs
+* L'API d'URL GET `/api/expenses` - renvoie une liste des dépenses
+* L'API d'URL PUT `/api/expenses` - mettre à jour une dépense
+* L'API d'URL GET `/api/expenses/{name}` - rechercehe une dépense par nom
+* L'API d'URL DELETE `/api/expenses/{id}` - supprimer une dépense par ID
 
-Voila ! dans ce repo nous avons réalisé un exemple d'API REST pour un CRUD et des méthodes de requête personnalisées avec Spring Data MongoDB.
+Voila ! dans ce repo nous avons réalisé un exemple d'API REST CRUD et des méthodes de requête personnalisées à l'aide de Spring Data MongoDB.
